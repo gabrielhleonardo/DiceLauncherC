@@ -18,7 +18,7 @@ int main(void){
 		dadosDefesa[i] = rand() %6+1;
 		somaDefesa = dadosDefesa[i] + somaDefesa;
 	}
-	printf("Dados de Ataque:\t");
+	printf("\n\nDados de Ataque:\t");
 	for(i=0;i<3;i++){
 		printf("%.0f\t", dadosAtaque[i]);
 	}
